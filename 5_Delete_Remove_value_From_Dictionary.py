@@ -5,3 +5,14 @@ for i in range(a):
   v = int(input("Enter value to input"))
   myDict.upadte({k:v})
   print(myDict)
+
+  
+  #Method 1:
+  myDict.pop("City")
+print(myDict)
+
+#Method 2:
+myDict.popitem()
+
+#Method 3:
+print(myDict.clear())
