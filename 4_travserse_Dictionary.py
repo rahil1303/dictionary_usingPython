@@ -5,3 +5,10 @@ for i in range(a):
   values = int(input("Enter data for values"))
   myDict.update({key:values})
   print(myDict)
+
+  
+def traversedict(Dictionary):
+  for key in Dictionary:
+    print(key,Dictionary[key])
+
+travsersedict(myDict)
